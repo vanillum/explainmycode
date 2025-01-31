@@ -1,24 +1,16 @@
 {
   "name": "explain-my-code",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "AI-powered tool to explain code in simple terms",
   "bin": {
-    "explain-my-code": "bin/explain.js"
+    "explain-my-code": "./bin/explain.js"
+  },
+  "dependencies": {
+    "@vercel/ai": "^1.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/explain.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vanillum/explainmycode.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/vanillum/explainmycode/issues"
-  },
-  "homepage": "https://github.com/vanillum/explainmycode#readme",
-  "description": ""
+  "author": "Your Name",
+  "license": "MIT"
 }
